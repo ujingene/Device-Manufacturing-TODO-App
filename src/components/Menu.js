@@ -1,5 +1,5 @@
 import React, { Component } from 'react'
-import { Route, BrowserRouter, Link } from 'react-router-dom'
+import { Route, BrowserRouter } from 'react-router-dom'
 
 export default class Menu extends Component {
     render() {

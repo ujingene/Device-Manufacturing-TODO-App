@@ -5,8 +5,9 @@ const DeviceList = (props) =>{
 
   useEffect(() => {
     getDevices();
-  }, []);
+  }, []); 
 
+  //get devices from api
   const getDevices = async () => {
     const response = await fetch(`https://stark-beyond-32222.herokuapp.com/api/smart-device`);
     const data = await response.json();
@@ -14,7 +15,7 @@ const DeviceList = (props) =>{
     console.log(data.data);
 
   };
-
+//delete device
  const deleteDevice = (serial, devices) => {
     const apiUrl = `https://stark-beyond-32222.herokuapp.com/api/smart-device/`;
     console.log(apiUrl)
@@ -42,6 +43,7 @@ const DeviceList = (props) =>{
       )
   }
 
+  //edit devices
 const EditDevice = (serial) => {  
     props.history.push({  
       pathname: '/editDevice/' + serial
