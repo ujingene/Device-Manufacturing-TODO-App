@@ -17,7 +17,7 @@ handleSubmit = event =>{
     console.log("Device Description : " + this.state.description);
     console.log("Manufacturer : " + this.state.manufacturer);
 
-    const url = "http://localhost:8000/api/smart-device";
+    const url = "https://stark-beyond-32222.herokuapp.com/api/smart-device";
     const data = { 
         description:this.state.description,
         manufacturer_id:this.state.manufacturer
@@ -27,8 +27,7 @@ handleSubmit = event =>{
         method: 'POST', // or 'PUT'
         mode: 'cors',
         body: JSON.stringify(data), // data can be `string` or {object}!
-        headers:{ 'Content-Type': 'application/json' },
-        redirect: '/',
+        headers:{ 'Content-Type': 'application/json' }
     }
         )
         .then(res => res.json())

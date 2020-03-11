@@ -8,7 +8,7 @@ const DeviceList = (props) =>{
   }, []);
 
   const getDevices = async () => {
-    const response = await fetch(`http://localhost:8000/api/smart-device`);
+    const response = await fetch(`https://stark-beyond-32222.herokuapp.com/api/smart-device`);
     const data = await response.json();
     setDevices(data.data);
     console.log(data.data);
@@ -16,7 +16,7 @@ const DeviceList = (props) =>{
   };
 
  const deleteDevice = (serial, devices) => {
-    const apiUrl = `http://localhost:8000/api/smart-device/`;
+    const apiUrl = `https://stark-beyond-32222.herokuapp.com/api/smart-device/`;
     console.log(apiUrl)
     const formData = new FormData();
     formData.append('serial', serial);
