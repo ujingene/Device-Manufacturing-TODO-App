@@ -11,16 +11,12 @@ export default class Menu extends Component {
     <BrowserRouter>
     <Route exact path="/" className="brand-link">
       <img src="dist/img/AdminLTELogo.png" alt="AdminLTE Logo" className="brand-image img-circle elevation-3" style={{opacity: '.8'}} />
-      <span className="brand-text font-weight-light">Smart Devices</span>
     </Route>
     </BrowserRouter>
     {/* Sidebar */}
     <div className="sidebar">
       {/* Sidebar user panel (optional) */}
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
-        <div className="image">
-          <img src="dist/img/avatar.jpeg" className="img-circle elevation-2" alt="User" />
-        </div>
         <div className="info">
           <BrowserRouter>
               <Route exact path="/AddDevice" className="d-lock">Eugene Wanjira</Route>
