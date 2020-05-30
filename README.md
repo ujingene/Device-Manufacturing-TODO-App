@@ -13,7 +13,7 @@ React TODO App that allows user to perform crud operations (Create/Edit/Update/D
 ![Edit Device](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/editDevice.PNG)
 
 - Add Manufacturer details 
-![Add Manufacturer](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Manufacturer.PNG)
+![Add Manufacturer](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/Manufacturer.PNG)
 
 ### Clone the App from github
 
@@ -61,7 +61,7 @@ $(function () {
   });
 ```
 
-## This application uses the following Api to make queries
+## This application uses the following Api to make requests
 
 Use Postman to test this APi
 - [Devices APi](https://stark-beyond-32222.herokuapp.com/api/smart-device).
@@ -73,7 +73,6 @@ Use Postman to test this APi
 
 ### Author
 
-Eugene Wanjira
 [Eugene Wanjira](http://www.github.com/ujingene)
 
 ### Version
