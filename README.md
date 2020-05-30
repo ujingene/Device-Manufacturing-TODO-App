@@ -44,6 +44,23 @@ cd `smart-device`
 npm run build
 ```
 
+### Required Fixes/Bugs
+Update the admin lte Jquery datatable in public/index.html or use React datatables
+Searching,  Paging not working as expected in React.
+```js
+$(function () {
+   $("#example1").DataTable();
+    $("#example2").DataTable({
+      "paging": true,
+      "lengthChange": false,
+      "searching": false,
+      "ordering": true,
+      "info": true,
+      "autoWidth": false,
+    });
+  });
+```
+
 ## This application uses the following Api to make queries
 
 Use Postman to test this APi
