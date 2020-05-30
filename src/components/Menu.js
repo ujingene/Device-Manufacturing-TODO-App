@@ -19,7 +19,7 @@ export default class Menu extends Component {
       <div className="user-panel mt-3 pb-3 mb-3 d-flex">
         <div className="info">
           <BrowserRouter>
-              <Route exact path="/AddDevice" className="d-lock">Eugene Wanjira</Route>
+              <Route exact path="/" className="d-lock"><h3>Eugene Wanjira</h3></Route>
           </BrowserRouter>
         </div>
       </div>
@@ -50,6 +50,15 @@ export default class Menu extends Component {
               <i className="nav-icon fas fa-table" />
               <p>
                  Smart Devices
+              </p>
+            </a>
+          </li>
+
+          <li className="nav-item">
+            <a href="addManufacturer" className="nav-link">
+              <i className="nav-icon fas fa-edit" />
+              <p>
+                 Add Manufacturer
               </p>
             </a>
           </li>
