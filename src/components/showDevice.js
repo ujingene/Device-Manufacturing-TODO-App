@@ -37,7 +37,7 @@ export default class showDevice extends Component{
             <div className="container-fluid">
                 <div className="row mb-2">
                 <div className="col-sm-6">
-                    <h1>Show Client</h1>
+                    <h1>Device ID: {this.state.device.serial} </h1>
                 </div>
                 <div className="col-sm-6">
                     <ol className="breadcrumb float-sm-right">

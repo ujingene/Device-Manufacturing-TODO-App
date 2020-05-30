@@ -13,24 +13,14 @@ const DeviceList = (props) => {
     const options = {
       method: 'GET',
       crossDomain: true,
-      mode: 'no-cors',
+      mode: 'cors',
       url: "https://stark-beyond-32222.herokuapp.com/api/smart-device",
       header: {
         "cache-control": "no-cache"
       }
     }
 
-    const settings = {
-      "crossDomain": true,
-      "url": "https://stark-beyond-32222.herokuapp.com/api/smart-device",
-      "method": "GET",
-      "headers": {
-        "cache-control": "no-cache"
-      }
-    }
-
-
-    const response = await fetch(options);
+    const response = await fetch(devicesURl);
     const data = await response.json();
     setDevices(data.data);
     console.log(data.data);

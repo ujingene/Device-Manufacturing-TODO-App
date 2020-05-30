@@ -1,10 +1,16 @@
-This is a React JS Application built on top of Admin LTE to show manufacturering status of different devices. Its embedded with the following functions.
+React TODO App that allows user to perform crud operations (Create/Edit/Update/Delete). This app is connected to a REST API built using Laravel
 
 - Responsive Items Dashboard
+![Dashboard](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+
 - View Item details on different route
-- Delete an Item from the table
+![View Item](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+
 - Edit Item details by navigating to edit route.
+![Edit Item](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+
 - Add Manufacturer details 
+![Add Manufacturer](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
 
 ### Clone the App from github
 
@@ -37,9 +43,10 @@ npm run build
 
 ## This application uses the following Api to make queries
 
-- Use Postman to test the this APi[Devices APi](https://heroku.com/ujingene/SmartDevices).
+Use Postman to test this APi
+- [Devices APi](https://stark-beyond-32222.herokuapp.com/api/smart-device).
 
-- Manufacturers APi [Manufacturers Api](https://heroku.com/ujingene/Manufacturers)
+- [Manufacturers Api](https://stark-beyond-32222.herokuapp.com/api/Manufacturer)
 
 
 ## App Info
