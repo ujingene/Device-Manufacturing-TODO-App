@@ -1,16 +1,19 @@
 React TODO App that allows user to perform crud operations (Create/Edit/Update/Delete). This app is connected to a REST API built using Laravel
 
 - Responsive Items Dashboard
-![Dashboard](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+![Dashboard](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/devices.PNG)
 
-- View Item details on different route
-![View Item](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+- Add New Device
+![Create Device](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/createDevice.PNG)
 
-- Edit Item details by navigating to edit route.
-![Edit Item](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+- View Device details on different route
+![View Device](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/viewDevice.PNG)
+
+- Edit Device details by navigating to edit route.
+![Edit Device](https://github.com/ujingene/Device-Manufacturing-TODO-app/blob/master/images/editDevice.PNG)
 
 - Add Manufacturer details 
-![Add Manufacturer](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Img1.PNG)
+![Add Manufacturer](https://github.com/ujingene/Device-Manufacturing-TODO-app.git/blob/master/images/Manufacturer.PNG)
 
 ### Clone the App from github
 
